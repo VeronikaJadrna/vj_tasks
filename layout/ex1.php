@@ -24,7 +24,7 @@ echo date('d.M.y');?>
 
 <h2>3.4 Variable in php</h2>
 
-<?php include "footer.php"?>
+
 <?php
 $title1="PHP is interesting";
 echo "<h1>" . $title1 . "</h1>";
@@ -55,3 +55,10 @@ echo "
 </table>
 "
 ?>
+
+
+<h2>Screenshot</h2>
+
+<img src="screenshot.PNG" alt="screenshot">;
+
+<?php include "footer.php"?>
