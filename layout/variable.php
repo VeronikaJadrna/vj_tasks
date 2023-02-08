@@ -57,8 +57,8 @@ Select favourite colour: <input type="color" name="colour" required> <br>
 <h2> 4.Write a PHP script with two string variables. Assign any text to these variables. Join them together.  Print the length of the string. (Hint: string function)</h2>
 <?php
 
-$name = "Katie";
-$city = "London";
+$name = "Veronika";
+$city = "Madunice";
 
 echo $name . " " . $city;
 echo " <br> The lenght of " . $name . " is " . strlen($name);
