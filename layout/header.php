@@ -21,6 +21,6 @@
      <div class = "navItem3"><a href="index.php">About us</div></a>
      <div class = "navItem4"><a href="ex1.php">Excercise 1</div></a>
      <div class = "navItem5"><a href="variable.php">Excercise 3</div></a>
-     <div class = "navItem6"><a href="contact.html">Contact</div></a>
+     <div class = "navItem6"><a href="controlflow.php">Contact</div></a>
     </div>
    </nav>
