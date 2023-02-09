@@ -1,5 +1,5 @@
-<?php include "header.php"?>
 
+<?php include "header.php"?>
 
 <h2>4.1 Write a script that gets the current month and prints one of the following responses, depending on whether it's August or not:</h2>
 <?php
@@ -87,7 +87,7 @@ Use Switch statement with strops function to print the name of the browser as be
 If someone is using Chrome it should print, you are using Goolge Chrome….
  </h2>
 
- <?php include '../layout/header.php';
+ 
  $user_agent =  $_SERVER['HTTP_USER_AGENT'];
  echo $user_agent;
 

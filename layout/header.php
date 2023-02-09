@@ -18,9 +18,10 @@
      <div class = "navItem2">Catffee</div>
     </div>
     <div class = "navRest">
-     <div class = "navItem3"><a href="index.php">About us</div></a>
+     <div class = "navItem3"><a href="array.php">Excercise 5</div></a>
      <div class = "navItem4"><a href="ex1.php">Excercise 1</div></a>
      <div class = "navItem5"><a href="variable.php">Excercise 3</div></a>
-     <div class = "navItem6"><a href="controlflow.php">Contact</div></a>
+     <div class = "navItem6"><a href="controlflow.php">Excercise 4</div></a>
+  
     </div>
    </nav>
