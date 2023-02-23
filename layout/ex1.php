@@ -21,16 +21,45 @@ echo "Hello World! My name is \"Veronika\"";
 <?php
 echo date('d.M.y');?>
 
+<script>
+documet.write("Hello World This Is JavaScript");
+
+</script>
+<noscript>
+Please enable JavaScript to view this content,
+</noscript>
+
+<input type="button" onclick="hello()" value="Click">
+
 
 <h2>3.4 Variable in php</h2>
 
 
 <?php
 $title1="PHP is interesting";
-echo "<h1>" . $title1 . "</h1>";
+echo "<h2>" . $title1 . "</h2>";
 ?>
 
+<script>
+    //window.alert
+
+    //window.alert("This will trigger an alert box");
+    //window.alert(5+10);
+    //document.wetie
+    document.write("Hello I am here");
+    </script>
+
 <h2>3.5.Grades</h2>
+
+<button onclick="add()">Click to add</button>
+<hr>
+<p id="place1" style="color: white; background-color: black;"></p>
+<span id="place2" style="color: white; background-color: green;"></span>
+<script>
+document.getElementById("place1").innerHTML="This will go to place1";
+document.getElementById("place2").innerHTML="This will go to span";
+</script>
+
 <?php
 $g1 = 5;
 $g2 = 4;
@@ -60,5 +89,11 @@ echo "
 <h2>Screenshot</h2>
 
 <img src="screenshot.PNG" alt="screenshot">;
+
+
+<h2>Changing background-color</h2>
+<form>
+    <input type="color" name="background" onchange="changeColor('background',this.value)" >
+</form>
 
 <?php include "footer.php"?>
